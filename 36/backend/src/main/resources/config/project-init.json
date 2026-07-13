@@ -1,0 +1,39 @@
+{
+  "featuredCategory": {
+    "title": "专精特新小巨人",
+    "count": 13563,
+    "featured": {
+      "logo": "",
+      "name": "金胜电子",
+      "round": "A轮",
+      "desc": "SSD产品研发制造商"
+    }
+  },
+  "collectionTabs": ["全部", "最受关注", "热门赛道", "大赛路演", "榜单名册", "政策支持"],
+  "projectCollections": [
+    {
+      "id": 1,
+      "title": "WISE 2025 商业之王 年度先进制造标杆企业",
+      "cover": "https://picsum.photos/340/200?random=30",
+      "date": "03-20"
+    },
+    {
+      "id": 2,
+      "title": "WISE 2025 商业之王 年度消费品牌价值共创",
+      "cover": "https://picsum.photos/340/200?random=31",
+      "date": "03-20"
+    },
+    {
+      "id": 3,
+      "title": "热门赛道：人工智能专题",
+      "cover": "https://picsum.photos/340/200?random=32",
+      "date": "03-18"
+    },
+    {
+      "id": 4,
+      "title": "大赛路演精选项目集",
+      "cover": "https://picsum.photos/340/200?random=33",
+      "date": "03-15"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# === Java / Maven ===
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+
+# === IDE ===
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/.vscode/
+**/.classpath
+**/.project
+**/.settings/
+
+# === Maven wrapper ===
+**/.mvn/
+
+# === 前端 ===
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/out/
+
+# === 上传文件 ===
+**/uploads/
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === 其他 ===
+**/.DS_Store
+**/MACOSX/

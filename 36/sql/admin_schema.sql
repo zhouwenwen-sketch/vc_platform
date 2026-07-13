@@ -1,0 +1,41 @@
+-- 后台管理相关表（dev 环境也会由 AdminSchemaMigration 自动创建）
+
+CREATE TABLE IF NOT EXISTS admin_role (
+  id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+  code        VARCHAR(64)  NOT NULL UNIQUE,
+  name        VARCHAR(64)  NOT NULL,
+  description VARCHAR(255) DEFAULT NULL,
+  status      TINYINT      NOT NULL DEFAULT 1,
+  create_time DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  update_time DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='后台角色';
+
+CREATE TABLE IF NOT EXISTS admin_permission (
+  id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+  code        VARCHAR(128) NOT NULL UNIQUE,
+  name        VARCHAR(64)  NOT NULL,
+  type        VARCHAR(16)  NOT NULL DEFAULT 'menu',
+  parent_id   BIGINT       NOT NULL DEFAULT 0,
+  path        VARCHAR(128) DEFAULT NULL,
+  resource    VARCHAR(64)  DEFAULT NULL,
+  sort_order  INT          NOT NULL DEFAULT 0,
+  create_time DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='后台权限';
+
+CREATE TABLE IF NOT EXISTS admin_role_permission (
+  id            BIGINT PRIMARY KEY AUTO_INCREMENT,
+  role_id       BIGINT NOT NULL,
+  permission_id BIGINT NOT NULL,
+  UNIQUE KEY uk_role_perm (role_id, permission_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='角色权限关联';
+
+CREATE TABLE IF NOT EXISTS admin_user (
+  id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+  username    VARCHAR(64)  NOT NULL UNIQUE,
+  password    VARCHAR(128) NOT NULL,
+  nickname    VARCHAR(64)  DEFAULT NULL,
+  role_id     BIGINT       NOT NULL,
+  status      TINYINT      NOT NULL DEFAULT 1,
+  create_time DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  update_time DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='后台管理员';

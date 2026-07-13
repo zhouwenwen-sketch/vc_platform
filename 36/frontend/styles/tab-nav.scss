@@ -1,0 +1,4 @@
+@import './theme.scss';
+
+/** Tab 页顶部导航区高度，与项目页 system 默认 navigationBar 对齐 */
+$tab-nav-height: var(--tab-nav-height, calc(var(--status-bar-height, 44px) + 44px));

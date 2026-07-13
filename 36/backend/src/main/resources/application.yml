@@ -1,0 +1,50 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: lianbei-vc
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+
+vc:
+  upload-dir: uploads
+  # 留空：API 只返回 /uploads/... 相对路径，由 C 端 BASE_URL / 管理端 MEDIA_BASE 拼接域名
+  public-base-url:
+  onboard:
+    auto-approve: false
+  sms:
+    # 本地离线运行：不发真实短信，登录验证码固定 123456
+    enabled: false
+    mock-code: "123456"
+    send-interval-seconds: 60
+    daily-limit: 10
+    scene: mobilelogin
+    crm:
+      base-url: http://127.0.0.1:1
+      send-path: /api/sms/send
+      check-path: /api/sms/check
+      event: mobilelogin
+      success-code: 1
+  wx-mini-program:
+    app-id: ""
+    app-secret: ""
+    # 未配置微信密钥时启用 mock，一键登录返回 mock-phone
+    mock-enabled: true
+    mock-phone: "13800138000"
+
+logging:
+  level:
+    root: INFO
+    com.lianbei.vc: INFO

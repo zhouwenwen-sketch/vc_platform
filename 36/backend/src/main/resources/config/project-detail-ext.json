@@ -1,0 +1,159 @@
+{
+  "忆生科技": {
+    "isCertified": true,
+    "establishDate": "2023-09",
+    "intro": "忆生科技致力于构建具备自主学习能力、可自主进化的机器智能系统，融合具身智能与世界模型等前沿方向，推动通用智能在真实场景中的落地。",
+    "financingHistory": [
+      {
+        "date": "2024-03",
+        "round": "天使轮",
+        "amount": "未透露",
+        "investors": ["真格基金"]
+      }
+    ],
+    "businessInfo": {
+      "fullName": "忆生科技（深圳）有限公司",
+      "englishName": "-",
+      "legalPerson": "马毅",
+      "address": "深圳市前海深港合作区南山街道梦海大道5073号前海国际人才港603",
+      "establishDate": "2023-09-27"
+    },
+    "shareholders": [
+      {
+        "name": "马毅",
+        "ratio": "53.44%",
+        "capital": "60.12万元人民币",
+        "capitalDate": "-"
+      }
+    ],
+    "teamMembers": [
+      {
+        "name": "马毅",
+        "title": "创始人",
+        "avatar": "",
+        "bio": "香港大学计算机科学系创始系主任，IEEE/ACM/SIAM Fellow，曾任微软亚洲研究院副院长、字节跳动副总裁。"
+      }
+    ]
+  },
+  "联汇科技": {
+    "isCertified": true,
+    "establishDate": "2003-01",
+    "intro": "联汇科技专注于数字音频技术研发及系统集成，为行业客户提供端到端的音视频解决方案。",
+    "financingHistory": [
+      {
+        "date": "2024-01",
+        "round": "B++轮",
+        "amount": "未透露",
+        "investors": ["红杉中国"]
+      }
+    ],
+    "businessInfo": {
+      "fullName": "浙江联汇科技股份有限公司",
+      "englishName": "-",
+      "legalPerson": "-",
+      "address": "浙江省杭州市",
+      "establishDate": "2003-01-18"
+    },
+    "shareholders": [],
+    "teamMembers": []
+  },
+  "星尘智能": {
+    "isCertified": true,
+    "establishDate": "2022-01",
+    "intro": "星尘智能专注于具身智能与人形机器人研发，是赛道头部企业之一。",
+    "financingHistory": [
+      {
+        "date": "2025-06",
+        "round": "B轮",
+        "amount": "超10亿",
+        "investors": ["红杉中国", "高瓴创投"]
+      }
+    ],
+    "businessInfo": {
+      "fullName": "星尘智能（深圳）有限公司",
+      "legalPerson": "-",
+      "address": "广东省深圳市",
+      "establishDate": "2022-01-01"
+    },
+    "shareholders": [],
+    "teamMembers": []
+  },
+  "智材科技": {
+    "isCertified": true,
+    "establishDate": "2022-03",
+    "intro": "智材科技致力于人工智能与前沿新材料的融合研发与产业化。",
+    "financingHistory": [
+      {
+        "date": "2025-05",
+        "round": "战略融资",
+        "amount": "未透露",
+        "investors": ["经纬创投"]
+      }
+    ],
+    "businessInfo": {
+      "fullName": "智材科技（浙江）有限公司",
+      "legalPerson": "-",
+      "address": "浙江省杭州市",
+      "establishDate": "2022-03-01"
+    },
+    "shareholders": [],
+    "teamMembers": []
+  },
+  "华融科创": {
+    "isCertified": true,
+    "establishDate": "2020-06",
+    "intro": "华融科创是一家生物技术推广服务商。",
+    "financingHistory": [
+      {
+        "date": "2025-04",
+        "round": "A轮",
+        "amount": "超亿人民币",
+        "investors": ["比邻星投资", "高瓴创投"]
+      }
+    ],
+    "businessInfo": {
+      "fullName": "华融科创（上海）有限公司",
+      "legalPerson": "-",
+      "address": "上海市",
+      "establishDate": "2020-06-01"
+    },
+    "shareholders": [],
+    "teamMembers": []
+  },
+  "具身智航": {
+    "isCertified": true,
+    "establishDate": "2019-09",
+    "intro": "公司目前拥有39项专利/软著，核心研发团队来自北京航空航天大学、西北工业大学等高校，平均年龄31岁。",
+    "financingHistory": [],
+    "businessInfo": {
+      "fullName": "具身智航科技（北京）有限公司",
+      "englishName": "Zhishen Zhihang Technology (Beijing) Co., Ltd.",
+      "legalPerson": "赵荟文",
+      "address": "北京市北京经济技术开发区荣华中路22号院3号楼7层704-1",
+      "establishDate": "2019-09-17"
+    },
+    "shareholders": [],
+    "teamMembers": []
+  },
+  "君合盟": {
+    "isCertified": true,
+    "establishDate": "2017-01",
+    "intro": "君合盟专注广阔市场前沿蛋白药物研发。",
+    "financingHistory": [
+      {
+        "date": "2024-12",
+        "round": "C轮",
+        "amount": "未透露",
+        "investors": ["医疗创新基金"]
+      }
+    ],
+    "businessInfo": {
+      "fullName": "君合盟生物医药（广东）有限公司",
+      "legalPerson": "-",
+      "address": "广东省",
+      "establishDate": "2017-01-01"
+    },
+    "shareholders": [],
+    "teamMembers": []
+  }
+}

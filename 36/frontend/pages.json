@@ -1,0 +1,309 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false,
+        "disableScroll": true,
+        "backgroundColorTop": "#3D7A73",
+        "backgroundColor": "#F5F6F8"
+      }
+    },
+    {
+      "path": "pages/auth/investor/index",
+      "style": {
+        "navigationBarTitleText": "认证投资人",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/auth/investor/rules",
+      "style": {
+        "navigationBarTitleText": "认证审核规则",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/coverage/apply/index",
+      "style": {
+        "navigationBarTitleText": "寻求报道",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/project/onboard/index",
+      "style": {
+        "navigationBarTitleText": "项目入驻-大学生创投项目库",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/project/onboard/result",
+      "style": {
+        "navigationBarTitleText": "提交结果",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/news/index",
+      "style": {
+        "navigationBarTitleText": "融资快报",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/news/detail",
+      "style": {
+        "navigationBarTitleText": "快讯详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "搜索",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/project/index",
+      "style": {
+        "navigationBarTitleText": "项目",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/activity/index",
+      "style": {
+        "navigationBarTitleText": "活动",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true,
+        "backgroundColor": "#F5F6F8"
+      }
+    },
+    {
+      "path": "pages/activity/my/index",
+      "style": {
+        "navigationBarTitleText": "参与活动",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/activity/detail/index",
+      "style": {
+        "navigationBarTitleText": "活动详情",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/activity/register/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "活动报名",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/activity/publish/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "发布活动",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/login/sms",
+      "style": {
+        "navigationBarTitleText": "手机验证码登录",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/fa/index",
+      "style": {
+        "navigationBarTitleText": "FA服务",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/ma/list/index",
+      "style": {
+        "navigationBarTitleText": "融资并购",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/ma/detail/index",
+      "style": {
+        "navigationBarTitleText": "预约项目",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/legal/user-agreement",
+      "style": {
+        "navigationBarTitleText": "大学生创投用户服务协议",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/legal/privacy-policy",
+      "style": {
+        "navigationBarTitleText": "大学生创投平台",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/project/collection/index",
+      "style": {
+        "navigationBarTitleText": "项目集",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/project/collection/detail",
+      "style": {
+        "navigationBarTitleText": "项目集",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/project/detail/index",
+      "style": {
+        "navigationBarTitleText": "项目集",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/project/library/index",
+      "style": {
+        "navigationBarTitleText": "项目库",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/project/financing/index",
+      "style": {
+        "navigationBarTitleText": "在融项目",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/project/company/index",
+      "style": {
+        "navigationBarTitleText": "项目详情",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/institution/library/index",
+      "style": {
+        "navigationBarTitleText": "机构库",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/institution/detail/index",
+      "style": {
+        "navigationBarTitleText": "机构详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/financing/events/index",
+      "style": {
+        "navigationBarTitleText": "融资事件",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/research/list/index",
+      "style": {
+        "navigationBarTitleText": "研究院",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/research/detail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "报告详情",
+        "disableScroll": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生创投平台",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F6F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#78B9B1",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/project/index",
+        "text": "项目",
+        "iconPath": "static/tabbar/project.png",
+        "selectedIconPath": "static/tabbar/project-active.png"
+      },
+      {
+        "pagePath": "pages/activity/index",
+        "text": "活动",
+        "iconPath": "static/tabbar/activity.png",
+        "selectedIconPath": "static/tabbar/activity-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

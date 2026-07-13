@@ -1,0 +1,29 @@
+# 本地离线运行（解压后默认配置，不依赖线上服务）
+# 首次使用：安装 MySQL 5.7+，执行 sql/schema.sql 建库，再按下方账号密码修改
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/vc_platform?useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: "123456"   # 改成你本机 MySQL 的 root 密码
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-timeout: 30000
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+
+vc:
+  sms:
+    enabled: false
+  wx-mini-program:
+    mock-enabled: true
+  # 留空：API 返回 /uploads/ 相对路径，由前端 BASE_URL / MEDIA_BASE 拼接
+  public-base-url:
+
+logging:
+  level:
+    com.lianbei.vc.mapper: WARN
+    com.lianbei.vc: INFO

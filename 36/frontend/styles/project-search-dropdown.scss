@@ -1,0 +1,29 @@
+/** 项目搜索下拉：固定展示约 3 条，超出 scroll-view 内滚动 */
+
+$search-dropdown-item-height: 192rpx;
+$search-dropdown-visible-count: 3;
+
+.search-dropdown-panel {
+  margin-top: 16rpx;
+  background: #fff;
+  border: 1rpx solid #eee;
+  border-radius: 12rpx;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.search-dropdown-scroll {
+  height: calc(#{$search-dropdown-item-height} * #{$search-dropdown-visible-count});
+}
+
+.search-dropdown-item-wrap {
+  border-bottom: 1rpx solid #f0f0f0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:active {
+    background: #f8f9fb;
+  }
+}

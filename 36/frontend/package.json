@@ -1,0 +1,21 @@
+{
+  "name": "lianbei-vc-miniprogram",
+  "version": "1.0.0",
+  "description": "大学生创投平台小程序",
+  "scripts": {
+    "postinstall": "echo uview-plus installed",
+    "icons:generate": "node scripts/generate-rounded-icons.mjs",
+    "static:optimize": "node scripts/optimize-static.mjs",
+    "mp:clean-static": "node scripts/clean-mp-static.mjs",
+    "mp:size": "node scripts/measure-mp-size.mjs"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "uview-plus": "^3.1.30"
+  },
+  "devDependencies": {
+    "sass": "1.63.2",
+    "sass-loader": "10.4.1",
+    "sharp": "^0.33.5"
+  }
+}

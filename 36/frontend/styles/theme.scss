@@ -1,0 +1,77 @@
+/** 全站主题 SCSS 变量（青绿色） */
+
+$theme-primary: #78B9B1;
+$theme-primary-dark: #5A9A92;
+$theme-primary-mid: #8ABDB6;
+$theme-primary-deep: #3D7A73;
+$theme-primary-light: #C9E5E1;
+
+/** 库页 / 活动 Tab 等顶部横幅 */
+$theme-hero-gradient: linear-gradient(
+  135deg,
+  $theme-primary-deep 0%,
+  $theme-primary-dark 34%,
+  $theme-primary-mid 72%,
+  #96c8c1 100%
+);
+
+/** 我的页头部：上深下浅，过渡到页面背景 */
+$theme-header-gradient: linear-gradient(
+  180deg,
+  $theme-primary-deep 0%,
+  $theme-primary-dark 26%,
+  $theme-primary-mid 52%,
+  #96c8c1 72%,
+  #b8ddd8 86%,
+  #f0f2f5 100%
+);
+
+/** 首页头部：纵向柔和渐变，底部融入浅灰背景 */
+$theme-home-header-gradient: linear-gradient(
+  180deg,
+  $theme-primary-deep 0%,
+  $theme-primary-dark 20%,
+  $theme-primary-mid 42%,
+  #78B9B1 62%,
+  #96c8c1 78%,
+  #c9e5e1 92%,
+  #f5f6f8 100%
+);
+
+/** 卡片 logo 占位：同色系柔和渐变 */
+$theme-logo-gradient: linear-gradient(
+  180deg,
+  #78B9B1 0%,
+  #8ABDB6 38%,
+  #a8d0ca 72%,
+  #C9E5E1 100%
+);
+
+$theme-card-hero-gradient: linear-gradient(180deg, #C9E5E1 0%, #f0f4f8 100%);
+
+/** 表单页 / 寻求报道等窄横幅 */
+$theme-banner-gradient: linear-gradient(
+  135deg,
+  $theme-primary-deep 0%,
+  $theme-primary-dark 48%,
+  $theme-primary-mid 100%
+);
+
+/** 主按钮渐变（大块 CTA 可选用） */
+$theme-button-gradient: linear-gradient(135deg, #5A9A92 0%, #78B9B1 100%);
+
+/** 顶部蓝色横幅垂直间距（LibraryPageHero / 首页 / 我的页共用） */
+$hero-status-bar-extra: 18rpx;
+$hero-padding-x: 30rpx;
+$hero-padding-bottom: 60rpx;
+$hero-body-padding-top: 84rpx;
+
+$home-header-padding-x: 30rpx;
+$home-header-padding-y: 36rpx;
+$home-header-padding-bottom: 48rpx;
+$home-header-status-extra: 40rpx;
+$home-header-search-gap: 68rpx;
+
+$profile-header-padding-top: 90rpx;
+$profile-header-padding-x: 40rpx;
+$profile-header-padding-bottom: 150rpx;

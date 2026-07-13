@@ -1,0 +1,19 @@
+@import './tab-nav.scss';
+
+/** 滚动后顶部固定留白（高度 = 项目 Tab 默认导航栏） */
+.top-spacer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  height: $tab-nav-height;
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+
+  &.visible {
+    opacity: 1;
+  }
+}

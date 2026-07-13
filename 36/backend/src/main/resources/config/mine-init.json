@@ -1,0 +1,17 @@
+{
+  "certificationList": [
+    { "id": 1, "label": "认证投资人", "icon": "level", "type": "investor", "path": "/pages/auth/investor/index" },
+    { "id": 2, "label": "认证创业者", "icon": "edit-pen", "type": "entrepreneur", "path": "/pages/project/onboard/index" }
+  ],
+  "menuList": [
+    { "id": 1, "label": "对接记录", "icon": "list", "path": "" },
+    { "id": 2, "label": "参加活动", "icon": "coupon", "path": "/pages/activity/my/index", "requireLogin": true },
+    { "id": 9, "label": "发布活动", "icon": "plus-circle", "path": "/pages/activity/publish/index", "requireLogin": true },
+    { "id": 3, "label": "邀请项目方", "icon": "email", "path": "" },
+    { "id": 4, "label": "邀请投资人", "icon": "account", "path": "" },
+    { "id": 5, "label": "用户协议", "icon": "file-text", "path": "/pages/legal/user-agreement" },
+    { "id": 6, "label": "隐私政策", "icon": "checkmark-circle", "path": "/pages/legal/privacy-policy" },
+    { "id": 7, "label": "意见反馈", "icon": "chat", "path": "" },
+    { "id": 8, "label": "关注公众号", "icon": "weixin-fill", "path": "" }
+  ]
+}

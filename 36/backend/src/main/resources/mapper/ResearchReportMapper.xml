@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lianbei.vc.mapper.ResearchReportMapper">
+
+    <select id="selectReportPage" resultType="com.lianbei.vc.entity.ResearchReport">
+        SELECT * FROM research_report
+        WHERE status = 1
+        <if test="reportTypes != null and reportTypes.size() > 0">
+            AND report_type IN
+            <foreach collection="reportTypes" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+        <if test="industries != null and industries.size() > 0">
+            AND industry IN
+            <foreach collection="industries" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+        <if test="years != null and years.size() > 0">
+            AND YEAR(publish_date) IN
+            <foreach collection="years" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+        <if test="tags != null and tags.size() > 0">
+            AND (
+            <foreach collection="tags" item="item" separator=" OR ">
+                CONCAT(',', tags, ',') LIKE CONCAT('%,', #{item}, ',%')
+            </foreach>
+            )
+        </if>
+        ORDER BY publish_date DESC
+    </select>
+
+</mapper>

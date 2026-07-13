@@ -1,0 +1,56 @@
+@import './theme.scss';
+
+
+
+/** 库页 Hero 区（系统导航栏下方，与项目 Tab 顶部留白一致） */
+
+
+
+.library-hero {
+
+  flex-shrink: 0;
+
+  position: relative;
+
+  padding: $hero-body-padding-top $hero-padding-x $hero-padding-bottom;
+
+  background: $theme-hero-gradient;
+
+}
+
+
+
+.hero-body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+
+
+.hero-title {
+
+  display: block;
+
+  width: 100%;
+
+  font-size: 64rpx;
+
+  font-weight: 700;
+
+  color: #fff;
+
+  line-height: 1.25;
+
+  text-align: center;
+
+}
+

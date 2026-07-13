@@ -1,0 +1,348 @@
+@import './theme.scss';
+@import './form-picker-sheet.scss';
+
+/** 项目库 / 机构库 / 研究院 共用布局 */
+
+.library-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #f5f6f8;
+  --filter-accent: #{$theme-primary};
+
+  &.filter-open {
+    overflow: hidden;
+  }
+}
+
+.library-hero {
+  flex-shrink: 0;
+}
+
+.library-filter-anchor {
+  flex-shrink: 0;
+  position: relative;
+  background: #fff;
+  z-index: 30;
+}
+
+.search-bar {
+  padding: 20rpx 24rpx 12rpx;
+}
+
+.search-input-wrap {
+  display: flex;
+  align-items: center;
+  background: #f5f6f8;
+  border-radius: 40rpx;
+  padding: 16rpx 24rpx;
+}
+
+.search-icon {
+  margin-right: 12rpx;
+}
+
+.search-input {
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0 28rpx;
+  min-height: 88rpx;
+  box-sizing: border-box;
+}
+
+.filter-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rpx;
+  padding: 12rpx 8rpx;
+  box-sizing: border-box;
+
+  .filter-text {
+    font-size: 28rpx;
+    color: #333;
+    max-width: 140rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &.active .filter-text {
+    color: var(--filter-accent, #{$theme-primary});
+    font-weight: 500;
+  }
+}
+
+.filter-more {
+  flex: 0.9;
+}
+
+.filter-divider {
+  width: 1rpx;
+  height: 44rpx;
+  background: #e8e8e8;
+  margin: 0 12rpx;
+  flex-shrink: 0;
+}
+
+.sort-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 24rpx 28rpx;
+  border-top: 1rpx solid #f0f0f0;
+  border-bottom: 12rpx solid #f5f6f8;
+  background: #f5f6f8;
+}
+
+.result-banner {
+  display: flex;
+  align-items: center;
+  padding: 24rpx 24rpx 28rpx;
+  background: #f5f6f8;
+  font-size: 26rpx;
+  color: #666;
+
+  .result-num {
+    color: var(--filter-accent, #{$theme-primary});
+    font-weight: 600;
+  }
+}
+
+.result-count {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #999;
+}
+
+.result-num {
+  color: var(--filter-accent, #{$theme-primary});
+  font-weight: 600;
+}
+
+.sort-tab {
+  display: flex;
+  align-items: center;
+  gap: 6rpx;
+  font-size: 28rpx;
+  color: #666;
+  font-weight: 300;
+
+  &.active {
+    color: var(--filter-accent, #{$theme-primary});
+    font-weight: 600;
+  }
+}
+
+.sort-tabs {
+  display: flex;
+  gap: 28rpx;
+}
+
+.library-page :deep(.u-popup) {
+  flex: none;
+  height: 0;
+  min-height: 0;
+  overflow: visible;
+}
+
+.list-area {
+  flex: 1;
+  min-height: 0;
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.list-scroll {
+  height: 100%;
+}
+
+/**
+ * LibraryFilterDropdown 插槽内容样式须放在页面级 scss：
+ * 微信小程序组件 styleIsolation 下，子组件 :deep 无法作用于 slot 节点。
+ */
+.dropdown-scroll {
+  flex: 1;
+  min-height: 0;
+  height: 0;
+}
+
+.dropdown-scroll.single-col,
+.region-right {
+  padding: 16rpx 24rpx;
+  box-sizing: border-box;
+}
+
+.dropdown-option {
+  @include form-picker-option-base;
+
+  &.selected {
+    color: var(--filter-accent, #{$theme-primary});
+    font-weight: 500;
+    background: $theme-primary-light;
+  }
+}
+
+.region-panel {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  height: 0;
+}
+
+.region-left {
+  width: 200rpx;
+  background: #f7f8fa;
+  height: 100%;
+}
+
+.region-right {
+  flex: 1;
+  height: 100%;
+}
+
+.region-right-empty {
+  flex: 1;
+  background: #fff;
+}
+
+.region-zone {
+  padding: 32rpx 24rpx;
+  font-size: 30rpx;
+  color: #333;
+
+  &.selected {
+    color: var(--filter-accent, #{$theme-primary});
+    font-weight: 600;
+    background: #fff;
+  }
+}
+
+/** 筛选抽屉（项目库 / 融资事件库共用） */
+.drawer-panel {
+  width: 78vw;
+  max-width: 600rpx;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.drawer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32rpx 28rpx 20rpx;
+  padding-top: calc(var(--status-bar-height, 44px) + 24rpx);
+}
+
+.drawer-title {
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.drawer-body {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.drawer-body-inner {
+  padding: 0 28rpx;
+  box-sizing: border-box;
+}
+
+.drawer-section {
+  margin-bottom: 36rpx;
+}
+
+.drawer-label {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20rpx;
+  display: block;
+}
+
+.drawer-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+
+  .drawer-label {
+    margin-bottom: 0;
+  }
+}
+
+.expand-btn {
+  display: flex;
+  align-items: center;
+  gap: 6rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}
+
+.tag-item {
+  box-sizing: border-box;
+  padding: 12rpx 28rpx;
+  background: #f5f5f5;
+  border-radius: 40rpx;
+  font-size: 24rpx;
+  color: #666;
+  border: 2rpx solid transparent;
+  line-height: 1.4;
+
+  &.active {
+    background: $theme-primary-light;
+    color: $theme-primary;
+    border-color: $theme-primary;
+  }
+}
+
+.drawer-footer {
+  flex-shrink: 0;
+  display: flex;
+  padding: 24rpx 32rpx calc(24rpx + env(safe-area-inset-bottom));
+  gap: 0;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.drawer-footer .foot-btn {
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+
+  &.reset {
+    color: var(--filter-accent, #{$theme-primary});
+    background: #fff;
+    border: 2rpx solid var(--filter-accent, #{$theme-primary});
+    border-radius: 40rpx 0 0 40rpx;
+  }
+
+  &.confirm {
+    color: #fff;
+    background: var(--filter-accent, #{$theme-primary});
+    border-radius: 0 40rpx 40rpx 0;
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "真格基金": {
+    "aliases": ["北京真格天成投资管理有限公司"],
+    "region": "北京市",
+    "instTypes": ["VC", "天使"],
+    "manageScale": "> 100亿人民币",
+    "teamCount": "50+",
+    "intro": "真格基金是国内领先的天使投资机构，由徐小平、王强等人联合创立，专注于早期科技项目投资。基金致力于支持具有全球视野的创业者，在人工智能、前沿技术、消费等领域持续布局，已投资多家独角兽企业。",
+    "investmentFields": [
+      "前沿技术",
+      "人工智能",
+      "企业服务",
+      "消费电商",
+      "医疗健康",
+      "教育"
+    ],
+    "businessInfo": {
+      "fullName": "北京真格天成投资管理有限公司",
+      "legalPerson": "-",
+      "establishDate": "2011年",
+      "address": "北京市朝阳区"
+    },
+    "fundManagers": [],
+    "teamMembers": [
+      {
+        "name": "徐小平",
+        "title": "创始合伙人",
+        "avatar": "",
+        "bio": "真格基金创始合伙人，知名投资人。"
+      }
+    ],
+    "contact": {
+      "website": "https://www.zhenfund.com",
+      "phone": "-",
+      "email": "contact@zhenfund.com",
+      "address": "北京市朝阳区"
+    }
+  },
+  "红杉中国": {
+    "aliases": ["红杉资本中国基金"],
+    "region": "北京市",
+    "instTypes": ["VC", "PE"],
+    "manageScale": "> 1000亿人民币",
+    "teamCount": "100+",
+    "intro": "红杉中国是红杉资本中国基金，专注于科技、消费、医疗健康等领域的成长期和早期投资。作为中国最具影响力的风险投资机构之一，红杉中国在人工智能、先进制造、企业服务等赛道持续深耕，助力创新企业成长。",
+    "investmentFields": [
+      "前沿技术",
+      "先进制造",
+      "智能硬件",
+      "企业服务",
+      "物联网/硬件",
+      "通信/半导体",
+      "文化娱乐",
+      "消费电商",
+      "产业升级",
+      "金融",
+      "人工智能"
+    ],
+    "businessInfo": {
+      "fullName": "红杉资本中国基金",
+      "legalPerson": "-",
+      "establishDate": "2005年",
+      "address": "北京市朝阳区"
+    },
+    "fundManagers": [],
+    "teamMembers": [],
+    "contact": {
+      "website": "https://www.sequoiacap.com/china",
+      "phone": "-",
+      "email": "-",
+      "address": "北京市朝阳区"
+    }
+  },
+  "鼎晖投资": {
+    "aliases": ["鼎晖股权投资管理（天津）有限公司"],
+    "region": "天津市",
+    "instTypes": ["VC", "PE"],
+    "manageScale": "> 500亿人民币",
+    "teamCount": "80+",
+    "intro": "鼎晖投资成立于2002年，是中国领先的私募股权投资机构，业务覆盖私募股权、并购投资、二级市场等。机构在消费、医疗、科技等领域拥有丰富的投资经验与产业资源。",
+    "investmentFields": [
+      "消费电商",
+      "医疗健康",
+      "企业服务",
+      "金融",
+      "产业升级"
+    ],
+    "businessInfo": {
+      "fullName": "鼎晖股权投资管理（天津）有限公司",
+      "legalPerson": "-",
+      "establishDate": "2002年",
+      "address": "天津市"
+    },
+    "fundManagers": [],
+    "teamMembers": [],
+    "contact": {
+      "website": "-",
+      "phone": "-",
+      "email": "-",
+      "address": "天津市"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "tabs": ["全部", "最受关注", "热门赛道", "大赛路演", "榜单名册", "政策支持"],
+  "collections": [
+    {
+      "id": 1,
+      "category": "最受关注",
+      "badge": "榜单名册",
+      "title": "WISE2025 商业之王 年度先进制造标杆企业",
+      "cover": "https://picsum.photos/750/360?random=30",
+      "coverTitle": "WISE2025\n商业之王\n年度先进制造标杆企业",
+      "date": "2026-03-20",
+      "summary": "在风浪中，造新船。全球市场的波动让传统经验失效，唯有持续创新与精益制造，方能穿越周期。",
+      "description": "在风浪中，造新船。全球市场的波动让传统经验失效，唯有持续创新与精益制造，方能穿越周期。本榜单聚焦先进制造领域，遴选年度最具成长性与产业影响力的标杆企业，覆盖新能源、半导体、高端装备等细分赛道。",
+      "projects": [
+        {
+          "id": 101,
+          "name": "海辰储能",
+          "round": "C轮",
+          "companyDesc": "储能电池产品研发商",
+          "tags": ["能源环保"],
+          "location": "福建省",
+          "foundingYear": "2019年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=101"
+        },
+        {
+          "id": 102,
+          "name": "瑞能半导",
+          "round": "已上市",
+          "companyDesc": "半导体功率器件研发商",
+          "tags": ["先进制造"],
+          "location": "上海市",
+          "foundingYear": "2015年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=102"
+        },
+        {
+          "id": 103,
+          "name": "星尘智能",
+          "round": "B轮",
+          "companyDesc": "具身智能领域头部企业",
+          "tags": ["机器人", "人工智能"],
+          "location": "广东省",
+          "foundingYear": "2022年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=103"
+        },
+        {
+          "id": 104,
+          "name": "福恩纺织",
+          "round": "战略融资",
+          "companyDesc": "全球领先再生聚酯纤维供应商",
+          "tags": ["消费电商"],
+          "location": "浙江省",
+          "foundingYear": "2010年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=104"
+        },
+        {
+          "id": 105,
+          "name": "昆仑元",
+          "round": "天使轮",
+          "companyDesc": "AGI全栈能力前沿科技公司",
+          "tags": ["人工智能"],
+          "location": "北京市",
+          "foundingYear": "2024年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=105"
+        },
+        {
+          "id": 106,
+          "name": "君合盟",
+          "round": "C轮",
+          "companyDesc": "专注广阔市场前沿蛋白药物",
+          "tags": ["医疗健康"],
+          "location": "江苏省",
+          "foundingYear": "2018年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=106"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "最受关注",
+      "badge": "",
+      "title": "WISE2025 商业之王 年度消费品牌价值共创",
+      "cover": "https://picsum.photos/750/360?random=31",
+      "coverTitle": "WISE2025\n商业之王\n年度消费品牌价值共创",
+      "date": "2026-03-20",
+      "summary": "消费品牌正从流量红利走向价值深耕，本合集汇聚年度最具品牌势能与创新力的消费企业。",
+      "description": "消费品牌正从流量红利走向价值深耕，本合集汇聚年度最具品牌势能与创新力的消费企业，覆盖新消费、美妆、食品饮品、零售科技等方向。",
+      "projects": [
+        {
+          "id": 201,
+          "name": "睿禾健康",
+          "round": "种子轮",
+          "companyDesc": "AI驱动的可结算预防医疗平台",
+          "tags": ["医疗健康"],
+          "location": "上海市",
+          "foundingYear": "2024年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=201"
+        },
+        {
+          "id": 202,
+          "name": "蓝瓶咖啡中国",
+          "round": "战略融资",
+          "companyDesc": "精品咖啡连锁品牌运营商",
+          "tags": ["消费电商"],
+          "location": "上海市",
+          "foundingYear": "2017年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=202"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "热门赛道",
+      "badge": "",
+      "title": "热门赛道：人工智能专题",
+      "cover": "https://picsum.photos/750/360?random=32",
+      "coverTitle": "热门赛道\n人工智能专题",
+      "date": "2026-03-18",
+      "summary": "大模型、具身智能、AI应用落地加速，精选人工智能赛道高成长项目。",
+      "description": "大模型、具身智能、AI应用落地加速，精选人工智能赛道高成长项目，助力投资人快速把握技术变革带来的产业机会。",
+      "projects": [
+        {
+          "id": 301,
+          "name": "具身智航",
+          "round": "未融资",
+          "companyDesc": "拥有无卫星导航和仿生视觉的核心技术",
+          "tags": ["前沿技术", "先进制造"],
+          "location": "北京市",
+          "foundingYear": "2019年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=301"
+        },
+        {
+          "id": 302,
+          "name": "昆仑元",
+          "round": "天使轮",
+          "companyDesc": "AGI全栈能力前沿科技公司",
+          "tags": ["人工智能"],
+          "location": "北京市",
+          "foundingYear": "2024年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=302"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "大赛路演",
+      "badge": "",
+      "title": "大赛路演精选项目集",
+      "cover": "https://picsum.photos/750/360?random=33",
+      "coverTitle": "大赛路演\n精选项目集",
+      "date": "2026-03-15",
+      "summary": "汇集创新创业大赛路演优质项目，覆盖早期至成长期多阶段。",
+      "description": "汇集创新创业大赛路演优质项目，覆盖早期至成长期多阶段，为投资机构提供高效对接入口。",
+      "projects": [
+        {
+          "id": 401,
+          "name": "金胜电子",
+          "round": "A轮",
+          "companyDesc": "SSD产品研发制造商",
+          "tags": ["先进制造"],
+          "location": "深圳市",
+          "foundingYear": "2016年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=401"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "榜单名册",
+      "badge": "榜单名册",
+      "title": "WISE2025 商业之王 年度新锐企业榜",
+      "cover": "https://picsum.photos/750/360?random=34",
+      "coverTitle": "WISE2025\n年度新锐企业榜",
+      "date": "2026-03-12",
+      "summary": "聚焦高速成长的新锐企业，展现下一代产业领军者的创新活力。",
+      "description": "聚焦高速成长的新锐企业，展现下一代产业领军者的创新活力，榜单由资深评委与行业专家联合遴选。",
+      "projects": [
+        {
+          "id": 501,
+          "name": "星尘智能",
+          "round": "B轮",
+          "companyDesc": "具身智能领域头部企业",
+          "tags": ["机器人"],
+          "location": "广东省",
+          "foundingYear": "2022年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=501"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "政策支持",
+      "badge": "",
+      "title": "专精特新与政策扶持企业合集",
+      "cover": "https://picsum.photos/750/360?random=35",
+      "coverTitle": "专精特新\n政策扶持合集",
+      "date": "2026-03-10",
+      "summary": "收录获各级政府与产业政策支持的企业，助力把握政策红利窗口。",
+      "description": "收录获各级政府与产业政策支持的企业，涵盖专精特新小巨人、单项冠军等资质主体，助力把握政策红利窗口。",
+      "projects": [
+        {
+          "id": 601,
+          "name": "金胜电子",
+          "round": "A轮",
+          "companyDesc": "SSD产品研发制造商",
+          "tags": ["先进制造"],
+          "location": "深圳市",
+          "foundingYear": "2016年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=601"
+        },
+        {
+          "id": 602,
+          "name": "瑞能半导",
+          "round": "已上市",
+          "companyDesc": "半导体功率器件研发商",
+          "tags": ["先进制造"],
+          "location": "上海市",
+          "foundingYear": "2015年成立",
+          "logoUrl": "https://picsum.photos/96/96?random=602"
+        }
+      ]
+    }
+  ]
+}

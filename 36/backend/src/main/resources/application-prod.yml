@@ -1,0 +1,29 @@
+# 生产环境配置（本地离线使用可忽略，默认 profile=dev）
+# 若需上线，请自行填写数据库与微信密钥后启动：--spring.profiles.active=prod
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/vc_platform?useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: "请修改为你的数据库密码"
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 30
+
+vc:
+  sms:
+    enabled: false
+  wx-mini-program:
+    app-id: ""
+    app-secret: ""
+    mock-enabled: true
+  public-base-url:
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+
+logging:
+  level:
+    com.lianbei.vc: WARN
+    com.lianbei.vc.mapper: WARN
