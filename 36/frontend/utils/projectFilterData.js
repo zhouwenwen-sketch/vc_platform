@@ -79,7 +79,7 @@ export const ESTABLISHMENT_YEAR_OPTIONS = [
 /** @deprecated 使用 ESTABLISHMENT_YEAR_OPTIONS */
 export const FOUNDED_YEAR_OPTIONS = ESTABLISHMENT_YEAR_OPTIONS
 
-/** 侧边栏 - 大学生创投报道 */
+/** 侧边栏 - 联贝科创报道 */
 export const LB_REPORT_OPTIONS = ['是', '否']
 
 /** 侧边栏 - 正在融资 */

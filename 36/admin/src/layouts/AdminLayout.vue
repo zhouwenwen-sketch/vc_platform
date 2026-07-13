@@ -1,7 +1,7 @@
 <template>
   <el-container class="admin-layout">
     <el-aside width="240px" class="aside">
-      <div class="brand">大学生创投后台</div>
+      <div class="brand">联贝科创后台</div>
       <el-menu
         :default-active="activeMenu"
         router

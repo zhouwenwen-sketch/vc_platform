@@ -1,6 +1,6 @@
 <template>
   <view class="library-page" :class="{ 'filter-open': activePanel || showDrawer }">
-    <LibraryPageHero title="大学生创投企业项目库" />
+    <LibraryPageHero title="联贝科创企业项目库" />
 
     <view class="library-filter-anchor">
       <view class="search-bar">
@@ -276,7 +276,7 @@
           </view>
 
           <view class="drawer-section">
-            <text class="drawer-label">大学生创投报道</text>
+            <text class="drawer-label">联贝科创报道</text>
             <view class="tag-grid">
               <view
                 class="tag-item"
@@ -465,7 +465,7 @@ function buildPayload(extra = {}) {
   return payload
 }
 
-/** 大学生创投报道：界面「是/否」→ 接口 yes/no（单选） */
+/** 联贝科创报道：界面「是/否」→ 接口 yes/no（单选） */
 function mapLbReportParam(val) {
   if (val === '是') return 'yes'
   if (val === '否') return 'no'

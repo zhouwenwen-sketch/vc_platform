@@ -16,11 +16,11 @@ function mapResearchReport(row) {
   const tags = row.tags || ''
   const tagList = row.tagList || splitTags(tags)
   const publisherRaw = row.publisher || {
-    name: row.publishBy || row.publish_by || '大学生创投研究院',
+    name: row.publishBy || row.publish_by || '联贝科创研究院',
     avatarUrl: row.publisherAvatarUrl || row.publisher_avatar_url || ''
   }
   const publisher = {
-    name: publisherRaw.name || '大学生创投研究院',
+    name: publisherRaw.name || '联贝科创研究院',
     avatarUrl: resolveMediaUrl(publisherRaw.avatarUrl || publisherRaw.avatar_url || '')
   }
   return {

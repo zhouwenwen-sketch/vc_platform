@@ -80,7 +80,7 @@ public class ResearchSeedMigration implements org.springframework.beans.factory.
           content TEXT,
           cover_url VARCHAR(512) DEFAULT NULL,
           view_count INT NOT NULL DEFAULT 0,
-          publish_by VARCHAR(64) NOT NULL DEFAULT '大学生创投研究院',
+          publish_by VARCHAR(64) NOT NULL DEFAULT '联贝科创研究院',
           status TINYINT NOT NULL DEFAULT 1,
           create_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
           update_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -223,6 +223,6 @@ public class ResearchSeedMigration implements org.springframework.beans.factory.
                       String reportType, String industry, String tags,
                       String publishDate, int viewCount) {
     jdbcTemplate.update(sql, title, summary, content.trim(), reportType, industry, tags,
-        publishDate, viewCount, "大学生创投研究院");
+        publishDate, viewCount, "联贝科创研究院");
   }
 }

@@ -14,7 +14,7 @@
           <text v-else class="avatar-letter">36</text>
         </view>
         <view class="source-meta">
-          <text class="source-name">{{ detail.publisher?.name || '大学生创投研究院' }}</text>
+          <text class="source-name">{{ detail.publisher?.name || '联贝科创研究院' }}</text>
           <text class="source-time">{{ detail.publishTime }}</text>
         </view>
       </view>

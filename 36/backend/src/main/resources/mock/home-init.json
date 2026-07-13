@@ -62,10 +62,10 @@
     {
       "id": 1,
       "logo": "",
-      "name": "大学生创投研究院",
+      "name": "联贝科创研究院",
       "isVerified": true,
       "tags": ["企业服务"],
-      "description": "大学生创投平台旗下创投研究机构，发布行业报告与榜单"
+      "description": "联贝科创平台旗下科创研究机构，发布行业报告与榜单"
     },
     {
       "id": 2,
@@ -78,7 +78,7 @@
     {
       "id": 3,
       "logo": "",
-      "name": "大学生创投平台",
+      "name": "联贝科创平台",
       "isVerified": true,
       "tags": ["媒体"],
       "description": "专注硬科技创投报道的垂直媒体"

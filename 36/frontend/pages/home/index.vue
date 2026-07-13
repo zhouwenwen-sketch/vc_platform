@@ -12,7 +12,7 @@
       <!-- 顶部品牌区 + 搜索 -->
       <view id="home-header" class="header-wrap">
         <view class="brand">
-          <text class="brand-title">大学生创投平台</text>
+          <text class="brand-title">联贝科创平台</text>
           <text class="brand-slogan">科技创新生态优质连接服务平台</text>
         </view>
         <view class="search-bar" @click="onSearch">

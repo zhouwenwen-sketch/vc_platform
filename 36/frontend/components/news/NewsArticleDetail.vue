@@ -10,7 +10,7 @@
           <text v-else class="avatar-letter">{{ sourceLetter }}</text>
         </view>
         <view class="source-meta">
-          <text class="source-name">{{ detail.author || '大学生创投平台' }}</text>
+          <text class="source-name">{{ detail.author || '联贝科创平台' }}</text>
           <text class="source-time">{{ detail.publishTime }}</text>
         </view>
       </view>
@@ -107,7 +107,7 @@ const liked = ref(false)
 const localLikeDelta = ref(0)
 
 const sourceLetter = computed(() => {
-  const name = props.detail.author || '大学生创投平台'
+  const name = props.detail.author || '联贝科创平台'
   return name.slice(0, 1)
 })
 

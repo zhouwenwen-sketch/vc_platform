@@ -42,7 +42,7 @@ public class MaDealSeedMigration implements org.springframework.beans.factory.In
         CREATE TABLE IF NOT EXISTS ma_deal (
           id BIGINT PRIMARY KEY AUTO_INCREMENT,
           project_no VARCHAR(32) NOT NULL,
-          brand_name VARCHAR(64) DEFAULT '大学生创投并购',
+          brand_name VARCHAR(64) DEFAULT '联贝科创并购',
           title VARCHAR(256) NOT NULL,
           summary VARCHAR(1024) DEFAULT NULL,
           category VARCHAR(32) NOT NULL DEFAULT 'listed_company',
@@ -84,7 +84,7 @@ public class MaDealSeedMigration implements org.springframework.beans.factory.In
     if (!tableExists("ma_deal")) {
       return;
     }
-    addColumnIfMissing("brand_name", "VARCHAR(64) DEFAULT '大学生创投并购'");
+    addColumnIfMissing("brand_name", "VARCHAR(64) DEFAULT '联贝科创并购'");
     addColumnIfMissing("title", "VARCHAR(256) NOT NULL DEFAULT ''");
     addColumnIfMissing("summary", "VARCHAR(1024) DEFAULT NULL");
     addColumnIfMissing("category", "VARCHAR(32) NOT NULL DEFAULT 'listed_company'");
@@ -213,7 +213,7 @@ public class MaDealSeedMigration implements org.springframework.beans.factory.In
         90);
     insertDeal(
         "MC82606065",
-        "大学生创投并购",
+        "联贝科创并购",
         "基金产投项目推介",
         "【基金产投|先进制造】产业基金寻求高端装备领域控股权投资机会。",
         "fund_invest",
@@ -240,7 +240,7 @@ public class MaDealSeedMigration implements org.springframework.beans.factory.In
         80);
     insertDeal(
         "MC82606066",
-        "大学生创投并购",
+        "联贝科创并购",
         "项目资产转让",
         "【项目资产|企业服务】SaaS 企业控股权转让，年营收超5000万。",
         "project_asset",

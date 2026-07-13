@@ -41,7 +41,7 @@
     {
       "path": "pages/project/onboard/index",
       "style": {
-        "navigationBarTitleText": "项目入驻-大学生创投项目库",
+        "navigationBarTitleText": "项目入驻-联贝科创项目库",
         "navigationBarBackgroundColor": "#FFFFFF",
         "backgroundColor": "#FFFFFF",
         "disableScroll": true
@@ -171,14 +171,14 @@
     {
       "path": "pages/legal/user-agreement",
       "style": {
-        "navigationBarTitleText": "大学生创投用户服务协议",
+        "navigationBarTitleText": "联贝科创用户服务协议",
         "navigationBarBackgroundColor": "#FFFFFF"
       }
     },
     {
       "path": "pages/legal/privacy-policy",
       "style": {
-        "navigationBarTitleText": "大学生创投平台",
+        "navigationBarTitleText": "联贝科创平台",
         "navigationBarBackgroundColor": "#FFFFFF"
       }
     },
@@ -269,7 +269,7 @@
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "大学生创投平台",
+    "navigationBarTitleText": "联贝科创平台",
     "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#F5F6F8"
   },

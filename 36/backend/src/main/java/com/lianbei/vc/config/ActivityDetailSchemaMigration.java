@@ -204,7 +204,7 @@ public class ActivityDetailSchemaMigration implements org.springframework.beans.
             rs -> rs.next() ? rs.getLong("id") : null);
 
     String[][] endedEvents = {
-      {"大学生创投 WISE 闭门会 · 产业投资对接", "https://picsum.photos/750/420?random=803"},
+      {"联贝科创 WISE 闭门会 · 产业投资对接", "https://picsum.photos/750/420?random=803"},
       {"2025 企业增长力大会", "https://picsum.photos/750/420?random=804"}
     };
 

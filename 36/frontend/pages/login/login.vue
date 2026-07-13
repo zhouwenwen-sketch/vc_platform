@@ -1,8 +1,8 @@
 <template>
   <view class="auth-login-page">
     <view class="brand-area">
-      <text class="logo">大学生创投平台</text>
-      <text class="headline">请允许大学生创投平台授权手机号</text>
+      <text class="logo">联贝科创平台</text>
+      <text class="headline">请允许联贝科创平台授权手机号</text>
       <text class="desc">获取您的手机号，仅用于注册并登录小程序</text>
     </view>
 
@@ -38,9 +38,9 @@
       </view>
       <text class="agreement-text">
         我已阅读并同意
-        <text class="link" @click.stop="onAgreementTap('user')">《大学生创投用户服务协议》</text>
+        <text class="link" @click.stop="onAgreementTap('user')">《联贝科创用户服务协议》</text>
         、
-        <text class="link" @click.stop="onAgreementTap('privacy')">《大学生创投隐私政策》</text>
+        <text class="link" @click.stop="onAgreementTap('privacy')">《联贝科创隐私政策》</text>
       </text>
     </view>
   </view>

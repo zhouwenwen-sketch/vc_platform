@@ -11,7 +11,7 @@
         <input
           v-model="keyword"
           class="search-input-outline"
-          placeholder="请输入公司简称，如大学生创投传媒/信息科技"
+          placeholder="请输入公司简称，如联贝科创传媒/信息科技"
           placeholder-class="placeholder"
           @input="onInput"
           @focus="showResults = true"

@@ -118,7 +118,7 @@
           <view class="field">
             <view class="label-row">
               <text class="required">*</text>
-              <text class="label">将大学生创投作为首发媒体</text>
+              <text class="label">将联贝科创作为首发媒体</text>
             </view>
             <view class="radio-group-row">
               <u-radio-group v-model="form.debutMedia" placement="row">

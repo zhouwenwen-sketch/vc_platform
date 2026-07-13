@@ -279,7 +279,7 @@ public class ProjectServiceImpl extends ServiceImpl<ProjectMapper, Project>
                     tagName));
   }
 
-  /** 大学生创投报道：是/否 对应是否有关联资讯（news）事件，单选 */
+  /** 联贝科创报道：是/否 对应是否有关联资讯（news）事件，单选 */
   private void applyLbReportFilter(LambdaQueryWrapper<Project> wrapper, String lbReport) {
     String choice = resolveSingleChoice(lbReport);
     if ("是".equals(choice) || "yes".equalsIgnoreCase(choice)) {

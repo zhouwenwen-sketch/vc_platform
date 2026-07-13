@@ -1,6 +1,6 @@
 <template>
   <view class="library-page" :class="{ 'filter-open': activePanel }">
-    <LibraryPageHero title="大学生创投机构库" />
+    <LibraryPageHero title="联贝科创机构库" />
 
     <view class="library-filter-anchor">
       <view class="search-bar">

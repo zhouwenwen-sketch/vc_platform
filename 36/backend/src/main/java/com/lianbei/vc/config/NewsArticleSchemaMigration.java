@@ -73,8 +73,8 @@ public class NewsArticleSchemaMigration implements org.springframework.beans.fac
       return;
     }
     String attr =
-        "本文来自大学生创投，大学生创投经授权发布。"
-            + "\n该文观点仅代表作者本人，大学生创投平台仅提供信息存储空间服务。";
+        "本文来自联贝科创，联贝科创经授权发布。"
+            + "\n该文观点仅代表作者本人，联贝科创平台仅提供信息存储空间服务。";
     jdbcTemplate.update(
         """
         UPDATE news SET
@@ -83,7 +83,7 @@ public class NewsArticleSchemaMigration implements org.springframework.beans.fac
           attribution = ?
         WHERE news_type = '文章' AND title LIKE '深圳具身公司星尘智能%' AND cover_url IS NULL
         """,
-        attr.replace("大学生创投，", "大学生创投，"));
+        attr);
     jdbcTemplate.update(
         """
         UPDATE news SET
@@ -92,7 +92,7 @@ public class NewsArticleSchemaMigration implements org.springframework.beans.fac
           attribution = ?
         WHERE news_type = '文章' AND title LIKE '人工智能新材料%' AND cover_url IS NULL
         """,
-        attr.replace("大学生创投，", "大学生创投，"));
+        attr);
     jdbcTemplate.update(
         """
         UPDATE news SET
@@ -110,7 +110,7 @@ public class NewsArticleSchemaMigration implements org.springframework.beans.fac
           attribution = ?
         WHERE news_type = '文章' AND title LIKE 'MiniMax%' AND cover_url IS NULL
         """,
-        attr.replace("大学生创投，", "大学生创投派，"));
+        attr.replace("联贝科创，", "联贝科创派，"));
   }
 
   private boolean tableExists(String table) {

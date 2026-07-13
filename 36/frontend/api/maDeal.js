@@ -15,7 +15,7 @@ function mapMaDealItem(row) {
   return {
     id: row.id,
     projectNo: row.projectNo || row.project_no || '',
-    brandName: row.brandName || row.brand_name || '大学生创投并购',
+    brandName: row.brandName || row.brand_name || '联贝科创并购',
     title: row.title || '',
     summary: row.summary || '',
     category: row.category || '',

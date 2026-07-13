@@ -1,4 +1,4 @@
--- 大学生创投平台数据库 DDL（MySQL 5.7+）
+-- 联贝科创平台数据库 DDL（MySQL 5.7+）
 CREATE DATABASE IF NOT EXISTS vc_platform DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE vc_platform;
 
@@ -353,7 +353,7 @@ CREATE TABLE research_report (
   content TEXT COMMENT '报告正文',
   cover_url VARCHAR(512) DEFAULT NULL COMMENT '封面图',
   view_count INT NOT NULL DEFAULT 0 COMMENT '阅读量',
-  publish_by VARCHAR(64) NOT NULL DEFAULT '大学生创投研究院' COMMENT '发布人',
+  publish_by VARCHAR(64) NOT NULL DEFAULT '联贝科创研究院' COMMENT '发布人',
   status TINYINT NOT NULL DEFAULT 1 COMMENT '0草稿 1已发布',
   create_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   update_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
@@ -379,7 +379,7 @@ CREATE TABLE research_category (
 CREATE TABLE ma_deal (
   id BIGINT PRIMARY KEY AUTO_INCREMENT COMMENT '主键',
   project_no VARCHAR(32) NOT NULL COMMENT '项目编号',
-  brand_name VARCHAR(64) DEFAULT '大学生创投并购' COMMENT '品牌/发布方名称',
+  brand_name VARCHAR(64) DEFAULT '联贝科创并购' COMMENT '品牌/发布方名称',
   title VARCHAR(256) NOT NULL COMMENT '主标题',
   summary VARCHAR(1024) DEFAULT NULL COMMENT '列表摘要',
   category VARCHAR(32) NOT NULL DEFAULT 'listed_company' COMMENT '分类',
@@ -443,7 +443,7 @@ INSERT INTO activity (title, cover_url, location, start_time, end_time, status, 
 ('具身智能商业化落地路径专题路演', 'https://picsum.photos/690/320?random=11', '上海 · 浦东', NOW() + INTERVAL 5 DAY, NOW() + INTERVAL 5 DAY + INTERVAL 2 HOUR, 'ongoing', 186, '头部项目与投资人面对面', 'roadshow', NULL, NULL, 0, '免费', NULL, NULL, 0),
 ('新能源储能产业链创新项目路演', 'https://picsum.photos/690/320?random=12', '深圳 · 前海', NOW() + INTERVAL 7 DAY, NOW() + INTERVAL 7 DAY + INTERVAL 3 HOUR, 'ongoing', 95, '储能赛道优质项目集中路演', 'roadshow', NULL, NULL, 0, '免费', NULL, NULL, 0),
 ('医疗健康AI项目路演专场', 'https://picsum.photos/690/320?random=13', '杭州 · 未来科技城', NOW() + INTERVAL 10 DAY, NOW() + INTERVAL 10 DAY + INTERVAL 2 HOUR, 'ongoing', 128, '可结算预防医疗创新项目', 'roadshow', NULL, NULL, 0, '免费', NULL, NULL, 0),
-('硬科技创业者训练营路演', 'https://picsum.photos/690/320?random=14', '北京 · 大学生创投', NOW() + INTERVAL 12 DAY, NOW() + INTERVAL 12 DAY + INTERVAL 4 HOUR, 'ongoing', 210, '早期硬科技项目展示', 'roadshow', NULL, NULL, 0, '免费', NULL, NULL, 0),
+('硬科技创业者训练营路演', 'https://picsum.photos/690/320?random=14', '北京 · 联贝科创', NOW() + INTERVAL 12 DAY, NOW() + INTERVAL 12 DAY + INTERVAL 4 HOUR, 'ongoing', 210, '早期硬科技项目展示', 'roadshow', NULL, NULL, 0, '免费', NULL, NULL, 0),
 ('消费品牌增长力项目路演', 'https://picsum.photos/690/320?random=15', '广州 · 琶洲', NOW() + INTERVAL 15 DAY, NOW() + INTERVAL 15 DAY + INTERVAL 3 HOUR, 'ongoing', 76, '新消费品牌融资路演', 'roadshow', NULL, NULL, 0, '免费', NULL, NULL, 0),
 ('WISE2025 商业之王 · 创投对接会', 'https://picsum.photos/690/320?random=40', '上海 · 浦东嘉里大酒店', NOW() + INTERVAL 15 DAY, NOW() + INTERVAL 15 DAY + INTERVAL 4 HOUR, 'registering', 328, '年度创投盛典对接', 'event', '["https://picsum.photos/750/420?random=801"]', '["https://picsum.photos/750/1400?random=811","https://picsum.photos/750/900?random=812"]', 0, '免费', 21, '张通社 & 加冕研究院', 0),
 ('人工智能产业创新峰会', 'https://picsum.photos/690/320?random=41', '北京 · 中关村', NOW() + INTERVAL 20 DAY, NOW() + INTERVAL 20 DAY + INTERVAL 8 HOUR, 'ongoing', 512, 'AI产业趋势与投融资', 'event', '["https://picsum.photos/750/420?random=821"]', '["https://picsum.photos/750/1200?random=822"]', 0, '免费', 21, '张通社', 0),

@@ -1,6 +1,6 @@
 <template>
   <view class="coverage-hero">
-    <text class="hero-brand">大学生创投平台</text>
+    <text class="hero-brand">联贝科创平台</text>
     <text class="hero-title">寻求报道申请</text>
   </view>
 </template>

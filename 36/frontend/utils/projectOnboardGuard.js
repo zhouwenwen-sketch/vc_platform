@@ -7,7 +7,7 @@ export const PROJECT_ONBOARD_PATH = '/pages/project/onboard/index'
 export const PROJECT_ONBOARD_RESULT_PATH = '/pages/project/onboard/result'
 
 export const ONBOARD_DUPLICATE_MODAL_CONTENT =
-  '您选择的项目已被大学生创投收录，无需重复创建。'
+  '您选择的项目已被联贝科创收录，无需重复创建。'
 
 /** 已收录项目被选中时的提示（不跳转） */
 export function showOnboardDuplicateModal() {

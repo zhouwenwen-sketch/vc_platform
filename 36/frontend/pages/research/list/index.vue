@@ -1,6 +1,6 @@
 <template>
   <view class="library-page" :class="{ 'filter-open': showFilter }">
-    <LibraryPageHero title="大学生创投研究院" />
+    <LibraryPageHero title="联贝科创研究院" />
 
     <view class="library-filter-anchor">
       <view class="filter-bar">

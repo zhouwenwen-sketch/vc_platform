@@ -1,7 +1,7 @@
 {
   "name": "lianbei-vc-miniprogram",
   "version": "1.0.0",
-  "description": "大学生创投平台小程序",
+  "description": "联贝科创平台小程序",
   "scripts": {
     "postinstall": "echo uview-plus installed",
     "icons:generate": "node scripts/generate-rounded-icons.mjs",

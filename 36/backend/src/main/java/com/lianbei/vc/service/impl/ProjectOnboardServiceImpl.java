@@ -90,7 +90,7 @@ public class ProjectOnboardServiceImpl implements ProjectOnboardService {
 
     String projectName = request.getProjectName().trim();
     if (projectService.existsByName(projectName)) {
-      throw new BusinessException("该项目名称已被大学生创投收录，请更换名称");
+      throw new BusinessException("该项目名称已被联贝科创收录，请更换名称");
     }
 
     String entityName = request.getEntityName().trim();

@@ -36,7 +36,7 @@ public final class Constants {
   public static final String ACTIVITY_JOIN_ATTENDED = "attended";
 
   /** 研究院固定发布方 */
-  public static final String RESEARCH_PUBLISHER_NAME = "大学生创投研究院";
+  public static final String RESEARCH_PUBLISHER_NAME = "联贝科创研究院";
   public static final String RESEARCH_PUBLISHER_AVATAR =
       "https://img.lianbeicdn.com/lianbei/ad/202010/20201028105942_386.png";
 }

@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 /**
- * 启动时将数据库中残留的旧品牌文案替换为大学生创投。
+ * 启动时将数据库中残留的旧品牌文案替换为联贝科创。
  * 仅更新仍包含 36氪 / 36kr / 联贝 / 硬氪 等关键词的行。
  */
 @Component

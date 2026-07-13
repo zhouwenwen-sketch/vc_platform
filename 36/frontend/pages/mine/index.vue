@@ -120,7 +120,7 @@ function onCertTap(c) {
 
 function onMenuTap(m) {
   if (m.label === '关注公众号') {
-    uni.showToast({ title: '请关注大学生创投公众号', icon: 'none' })
+    uni.showToast({ title: '请关注联贝科创公众号', icon: 'none' })
     return
   }
   if (m.path) {

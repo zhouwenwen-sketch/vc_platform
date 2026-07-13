@@ -43,7 +43,7 @@
       <el-form-item v-if="data.relatedReports" label="项目相关报道">
         <span class="multiline">{{ data.relatedReports }}</span>
       </el-form-item>
-      <el-form-item v-if="data.debutMedia" label="将大学生创投作为首发媒体">
+      <el-form-item v-if="data.debutMedia" label="将联贝科创作为首发媒体">
         <span>{{ formatFieldValue('debutMedia', data.debutMedia) }}</span>
       </el-form-item>
     </el-form>

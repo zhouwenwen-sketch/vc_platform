@@ -1,7 +1,7 @@
 <template>
   <div class="login-page">
     <el-card class="login-card" shadow="hover">
-      <h2>大学生创投后台</h2>
+      <h2>联贝科创后台</h2>
       <p class="sub">默认账号：admin / admin123</p>
       <el-form :model="form" @submit.prevent="onSubmit">
         <el-form-item>

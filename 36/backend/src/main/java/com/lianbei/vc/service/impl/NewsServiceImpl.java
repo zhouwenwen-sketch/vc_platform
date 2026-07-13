@@ -137,8 +137,8 @@ public class NewsServiceImpl extends ServiceImpl<NewsMapper, News> implements Ne
     if (!"文章".equals(news.getNewsType())) {
       return null;
     }
-    String source = StringUtils.hasText(news.getSource()) ? news.getSource() : "大学生创投";
-    return "本文来自「" + source + "」，大学生创投经授权发布。\n该文观点仅代表作者本人，大学生创投平台仅提供信息存储空间服务。";
+    String source = StringUtils.hasText(news.getSource()) ? news.getSource() : "联贝科创";
+    return "本文来自「" + source + "」，联贝科创经授权发布。\n该文观点仅代表作者本人，联贝科创平台仅提供信息存储空间服务。";
   }
 
   private News findNextNews(News current) {

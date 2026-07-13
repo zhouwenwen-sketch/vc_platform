@@ -39,7 +39,7 @@ export const reportList = [
     tags: '热门赛道,产业洞察,前沿技术',
     publishDate: '2025-07-31',
     viewCount: 12580,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ export const reportList = [
     tags: '短研洞察,产业洞察,其他',
     publishDate: '2023-07-26',
     viewCount: 8920,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 3,
@@ -61,7 +61,7 @@ export const reportList = [
     tags: '短研洞察,产业洞察,其他',
     publishDate: '2023-07-07',
     viewCount: 6540,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ export const reportList = [
     tags: '热门赛道,前沿技术',
     publishDate: '2025-06-15',
     viewCount: 18900,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 5,
@@ -83,7 +83,7 @@ export const reportList = [
     tags: '前沿技术,产业洞察',
     publishDate: '2025-05-28',
     viewCount: 11200,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 6,
@@ -94,7 +94,7 @@ export const reportList = [
     tags: '热门赛道,产业洞察',
     publishDate: '2025-05-12',
     viewCount: 9850,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 7,
@@ -105,7 +105,7 @@ export const reportList = [
     tags: '热门赛道,产业洞察',
     publishDate: '2025-04-25',
     viewCount: 14300,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 8,
@@ -116,7 +116,7 @@ export const reportList = [
     tags: '产业洞察,前沿技术',
     publishDate: '2025-04-08',
     viewCount: 7680,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 9,
@@ -127,7 +127,7 @@ export const reportList = [
     tags: '前沿技术,热门赛道',
     publishDate: '2025-03-20',
     viewCount: 16500,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 10,
@@ -138,7 +138,7 @@ export const reportList = [
     tags: '前沿技术,产业洞察',
     publishDate: '2024-12-15',
     viewCount: 13200,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 11,
@@ -149,7 +149,7 @@ export const reportList = [
     tags: '产业洞察,其他',
     publishDate: '2024-11-28',
     viewCount: 8900,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   },
   {
     id: 12,
@@ -160,6 +160,6 @@ export const reportList = [
     tags: '前沿技术,产业洞察',
     publishDate: '2024-10-10',
     viewCount: 10500,
-    publishBy: '大学生创投研究院'
+    publishBy: '联贝科创研究院'
   }
 ]

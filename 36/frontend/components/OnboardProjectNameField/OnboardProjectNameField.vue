@@ -8,7 +8,7 @@
       <input
         v-model="keyword"
         class="input"
-        placeholder="请输入公司简称，如：大学生创投传媒/信息科技"
+        placeholder="请输入公司简称，如：联贝科创传媒/信息科技"
         placeholder-class="placeholder"
         @input="onInput"
         @blur="onBlur"
@@ -83,7 +83,7 @@ async function onBlur() {
   }
 
   if (res.data?.exists) {
-    duplicateHint.value = '该项目名称已被大学生创投收录，请更换名称'
+    duplicateHint.value = '该项目名称已被联贝科创收录，请更换名称'
     nameValid.value = false
     emit('name-duplicate', name)
     showOnboardDuplicateModal()
@@ -118,7 +118,7 @@ async function validateName() {
   }
 
   if (res.data?.exists) {
-    duplicateHint.value = '该项目名称已被大学生创投收录，请更换名称'
+    duplicateHint.value = '该项目名称已被联贝科创收录，请更换名称'
     nameValid.value = false
     emit('name-duplicate', name)
     showOnboardDuplicateModal()

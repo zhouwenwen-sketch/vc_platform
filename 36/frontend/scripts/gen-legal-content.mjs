@@ -19,7 +19,7 @@ function toParagraphs(raw, title, updateDate, effectiveDate, navTitle) {
         !s.startsWith('扫描下方二维码') &&
         !s.startsWith('商务合作')
     )
-    .filter((s) => !/^大学生创投(用户服务协议|隐私政策|平台)$/.test(s))
+    .filter((s) => !/^联贝科创(用户服务协议|隐私政策|平台)$/.test(s))
     .filter((s) => !/^更新日期：/.test(s))
     .filter((s) => !/^生效日期：/.test(s))
 
@@ -33,17 +33,17 @@ const privacyRaw = fs.readFileSync(path.join(contentDir, 'privacy-policy.source.
 
 const user = toParagraphs(
   userRaw,
-  '大学生创投用户服务协议',
+  '联贝科创用户服务协议',
   '2023年08月02日',
   '2023年08月02日',
-  '大学生创投用户服务协议'
+  '联贝科创用户服务协议'
 )
 const privacy = toParagraphs(
   privacyRaw,
-  '大学生创投隐私政策',
+  '联贝科创隐私政策',
   '2025年06月17日',
   '2025年06月17日',
-  '大学生创投平台'
+  '联贝科创平台'
 )
 
 fs.writeFileSync(

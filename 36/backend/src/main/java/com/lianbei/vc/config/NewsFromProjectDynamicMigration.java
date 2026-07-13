@@ -68,7 +68,7 @@ public class NewsFromProjectDynamicMigration
                 WHEN CHAR_LENGTH(TRIM(pd.content)) > 512 THEN LEFT(TRIM(pd.content), 1024)
                 ELSE NULL
               END,
-              '大学生创投',
+              '联贝科创',
               NULLIF(TRIM(COALESCE(NULLIF(p.latest_round, ''), p.round)), ''),
               NULLIF(TRIM(COALESCE(NULLIF(p.location, ''), p.region)), ''),
               '快讯',
