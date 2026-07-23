@@ -7,7 +7,6 @@
       class="page-scroll"
       :show-scrollbar="false"
       enhanced
-      @scroll="onScroll"
     >
       <!-- 顶部品牌区 + 搜索 -->
       <view id="home-header" class="header-wrap">
@@ -170,7 +169,10 @@
 import { ref, computed, onMounted } from 'vue'
 import { useScrollTopSpacer } from '@/utils/useScrollTopSpacer.js'
 
-const { showTopSpacer, onScroll, tabNavStyle } = useScrollTopSpacer({ headerSelector: '#home-header' })
+const { showTopSpacer, tabNavStyle } = useScrollTopSpacer({
+  headerSelector: '#home-header',
+  scrollViewSelector: '.page-scroll'
+})
 import SectionHeader from '@/components/SectionHeader/SectionHeader.vue'
 import NewsCard from '@/components/NewsCard/NewsCard.vue'
 import FinancingEventCard from '@/components/FinancingEventCard/FinancingEventCard.vue'
